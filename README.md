@@ -23,3 +23,6 @@ The original code where this implementation was based upon can be found at https
 PyBiRewire module for download and installation is written by Andrea Gobbi and can be found at https://github.com/andreagobbi/pyBiRewire
 
 A youtube playlist on how to use the cluster at Universidad de los Andes to run this project can be found at: https://youtube.com/playlist?list=PLPad7rgmV3bRevOhTNh6zsUlupPgnvnBj
+
+
+In third place, a zipped directory named Patents_clear contains the file structure to be used inside the HPC. Its important to go over all files and change the paths to directories. If the same structure is used, then only the uniandes home path must be edited. 
