@@ -10,13 +10,13 @@ This repository contains 4 python files with which all the project is run. These
 
 Also, in the repository, executable files so the project can run under a HPC managed with SLURM. These executables with their functions are:
  - REORGANIZE_slurm.sh
-  - Runs Reorganize_Data.py. Uses class input (-c option) to organize class data (patents and citations) into the desired format  
+    - Runs Reorganize_Data.py. Uses class input (-c option) to organize class data (patents and citations) into the desired format  
  - EMPIRICAL_slurm.sh
-  - Runs Calculating_EMPIRICAL_SPNP.py with the default empirical setting for a class (-c option) and initial and final years (-start -stop options)  
+    - Runs Calculating_EMPIRICAL_SPNP.py with the default empirical setting for a class (-c option) and initial and final years (-start -stop options)  
  - INTRUNS_slurm.sh
-  - Runs Calculating_SPNP_Integrate_Runs.py. Integrates randomizations for a class (-c option) and initial and final years (-start -stop options)
+    - Runs Calculating_SPNP_Integrate_Runs.py. Integrates randomizations for a class (-c option) and initial and final years (-start -stop options)
  - RunJobs_slurm.sh
-  - Runs Running_Jobfiles.py. Using python multiprocessing runs in parallel n-randomizations (option -n) for a class (-c option) and initial and final years (-start -stop options). Also runs  Calculating_SPNP_Integrate_Runs.py to integrate randomizations sequentially, the same as INTRUNS_slurm.sh.
+    - Runs Running_Jobfiles.py. Using python multiprocessing runs in parallel n-randomizations (option -n) for a class (-c option) and initial and final years (-start -stop options). Also runs  Calculating_SPNP_Integrate_Runs.py to integrate randomizations sequentially, the same as INTRUNS_slurm.sh.
 
 The original code where this implementation was based upon can be found at https://github.com/jeffalstott/patent_centralities. Repository by Jeff Alstott.
 
